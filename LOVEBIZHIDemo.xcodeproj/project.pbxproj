@@ -102,6 +102,7 @@
 		BCF205C71C2051770076EA6F /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF205C61C2051770076EA6F /* UIView+Common.m */; };
 		BCF859D91C28DF1300459331 /* btn_nav_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF859D81C28DF1300459331 /* btn_nav_search@2x.png */; };
 		BCF859DB1C291BEB00459331 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF859DA1C291BEB00459331 /* about.png */; };
+		BCFFBBBB1C33B5C000B4BC39 /* HAHAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFFBBBA1C33B5C000B4BC39 /* HAHAViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -254,6 +255,8 @@
 		BCF205C81C2054820076EA6F /* UrlPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlPrefix.pch; sourceTree = "<group>"; };
 		BCF859D81C28DF1300459331 /* btn_nav_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_nav_search@2x.png"; sourceTree = "<group>"; };
 		BCF859DA1C291BEB00459331 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		BCFFBBB91C33B5C000B4BC39 /* HAHAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAHAViewController.h; sourceTree = "<group>"; };
+		BCFFBBBA1C33B5C000B4BC39 /* HAHAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAHAViewController.m; sourceTree = "<group>"; };
 		DECF9700C97BA15D0039F53F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FE9894A4C522C3003FC4C651 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -522,6 +525,8 @@
 				BCF205A31C2037C30076EA6F /* FristViewController.h */,
 				BC2465721C213BAE00B0EE50 /* FristCollectionViewCell.h */,
 				BC2465731C213BAE00B0EE50 /* FristCollectionViewCell.m */,
+				BCFFBBB91C33B5C000B4BC39 /* HAHAViewController.h */,
+				BCFFBBBA1C33B5C000B4BC39 /* HAHAViewController.m */,
 				BC1872F01C239EFC009323B5 /* ZTDetailViewController.h */,
 				BC1872F11C239EFC009323B5 /* ZTDetailViewController.m */,
 				BC24657C1C2187F800B0EE50 /* SecondCollectionViewCell.h */,
@@ -800,6 +805,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFFBBBB1C33B5C000B4BC39 /* HAHAViewController.m in Sources */,
 				BC18734F1C240790009323B5 /* BigImageViewController.m in Sources */,
 				BC24657E1C2187F800B0EE50 /* SecondCollectionViewCell.m in Sources */,
 				BC1E282A1C26608200771C30 /* LSModel.m in Sources */,
